@@ -2,7 +2,7 @@ import profilepic from "/src/assets/profilepic.jpg";
 
 const SocialLinkCard = () => {
   return (
-    <div className="relative bg-zinc-800 w-80 sm:w-96 rounded-lg text-center text-white p-4 sm:p-5 space-y-3 shadow-lg animate-[popUpForm_1s_ease-out_forwards] animation-delay-[0.5s]">
+    <div className="relative bg-zinc-800 bg-opacity-50 backdrop-blur-lg w-80 sm:w-96 rounded-lg text-center text-white p-4 sm:p-5 space-y-3 shadow-lg animate-[popUpForm_1s_ease-out_forwards] animation-delay-[0.5s]">
       <img
         src={profilepic}
         alt="Profile"
