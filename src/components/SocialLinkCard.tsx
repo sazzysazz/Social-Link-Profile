@@ -11,7 +11,7 @@ const SocialLinkCard = () => {
         scale: 1.05,
         boxShadow: "0 0 20px rgba(255, 255, 255, 0.3)",
       }}
-      transition={{ duration: 0.5, ease: "easeOut" }}
+      transition={{ duration: 1.5, ease: "easeOut" }}
       className="relative bg-zinc-800 bg-opacity-50 backdrop-blur-lg w-80 sm:w-96 rounded-lg text-center text-white p-4 sm:p-5 space-y-3 shadow-lg"
     >
       <motion.img
